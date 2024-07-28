@@ -1,0 +1,474 @@
+:root {
+    --bg1: #F36911;
+    --bg2: #FEF7F5;
+    --bg3: #ffe9e2;
+    --bg4: #ffd0c0;
+    --color1: #F36911;
+    --color2: #FEF7F5;
+    --redcolor: red
+}
+
+.OccupancyDiv .table thead {
+    background-color: var(--bg2)
+}
+
+.EnquiryBtn,.flyerBtn {
+    border: 1px solid var(--color1);
+    color: var(--color1)
+}
+
+.CallDetail i,.map-listprice a.clickarrow,.pagination li a {
+    color: var(--color1)
+}
+
+.CancleBtn,.GrandTotalDiv span:first-child,.HomeBtn a,.ModifyClick.collapsed::after,.PolicyClick,.Previleges .label,.Rpoints ul li a.redeempointclick,.Rpoints ul li a.rpointclick,.Tcondition,.attension a,.autocomplete-suggestion span.cityl::before,.briefinfo ul li::before,.byclick span,.calldetaillist p i,.calluspopup .PopupBody h4,.calluspopup p i,.cart_title_tour,.cityid.active a,.dropdown-menu .redeempoints a,.dynatabban.nav-tabs li:focus a,.dynatabban.nav-tabs li:hover a,.grandtext,.highlightsMAIN h6,.linkhighlight,.nav-tabs.triotabs li a,.nav-tabs.triotabs li.active a,.orange,.popupclick,.rbtext,.room-nav>li>a,.supplierNAME,.tab-content ul li.mtc-title,.table-responsive table tbody tr td.nrf,.tblclick,.tblnotification ul li,.tbssmalltext,.wcucontent a,h2.inner-heading,ul.country-nav li.active a,ul.country-nav li.active a:focus,ul.country-nav li.active a:hover {
+    color: var(--color1)
+}
+
+.ui-slider .ui-slider-range {
+    background: var(--bg1)
+}
+
+.Selectbtn2 {
+    background: var(--bg3)
+}
+
+.daycount::after,.fivestar-bottom {
+    color: var(--bg3)
+}
+
+.rating_new li>label {
+    color: var(--bg4)
+}
+
+.PreNext a:first-child,.rating_lbl,.selct_lbl,.tour_span {
+    background: #707070
+}
+
+.rating_lbl::after,.selct_lbl::after,.tour_span::after {
+    color: #707070
+}
+
+.ThemeFooter {
+    background-color: #333
+}
+
+body {
+    background-color: #f1f1f1
+}
+
+.homesvg {
+    background-image: url('https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/Home-Strip.svg');
+    background-repeat: no-repeat
+}
+
+.svgHeader {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/svgHeader.svg);
+    background-repeat: no-repeat
+}
+
+.svgBG1 {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/svgBG1.svg);
+    background-repeat: no-repeat
+}
+
+.svgBG2 {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/svgBG2.svg);
+    background-repeat: no-repeat
+}
+
+.svgBG3 {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/svgBG3.svg);
+    background-repeat: no-repeat
+}
+
+.svgBG4 {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/svgBG4.svg);
+    background-repeat: no-repeat
+}
+
+.svgBG5 {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/svgBG5.svg);
+    background-repeat: no-repeat
+}
+
+.svgBG6 {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/svgBG6.svg?v1);
+    background-repeat: no-repeat
+}
+
+.svgBG7 {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/svgBG7.svg);
+    background-repeat: no-repeat
+}
+
+.svgBG8 {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/svgBG8.svg);
+    background-repeat: no-repeat
+}
+
+.svgBG9 {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/svgBG9.svg);
+    background-repeat: no-repeat
+}
+
+.svgBG--1 {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/svgBG--1.svg);
+    background-repeat: no-repeat
+}
+
+.svgapp {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/svgapp.svg);
+    background-repeat: no-repeat
+}
+
+.footericon {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/footericon.svg);
+    background-repeat: no-repeat
+}
+
+.agtsidebaricon li i {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/agtsidebaricon.svg);
+    background-repeat: no-repeat
+}
+
+.passenger-svgBG {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/passenger-svg.svg);
+    background-repeat: no-repeat
+}
+
+.dashboard-svg {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/dashboard-svg.svg);
+    background-repeat: no-repeat
+}
+
+.addBtnsRight a.ComnBtn::after {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/svgBG6.svg)
+}
+
+.TVsvg {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/timing-voucher.svg);
+    background-repeat: no-repeat;
+}
+
+.note-red {
+    color: #f31111
+}
+
+.pro-svg {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/B2C/svg/b2c-profile.svg);
+    background-repeat: no-repeat
+}
+
+.holiday-svg {
+    background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/holiday-strip.svg);
+    background-repeat: no-repeat
+}
+
+.stripicon {
+    background-image: url('https://d1i3enf1i5tb1f.cloudfront.net/assets/Tailor-made/i-strip.svg');
+    background-repeat: no-repeat
+}
+
+.HoteldataBox {
+    background-color: #67c9fa;
+    color: #fff
+}
+
+.TourdataBox {
+    background-color: #f8aa88;
+    color: #fff
+}
+
+.usercountdataBox {
+    background-color: #3cdcb1;
+    color: #fff
+}
+
+.patternheader {
+    background-color: #1685cc
+}
+
+.efBtn {
+    border: 1px solid #499437;
+    background-color: #e2f5dd;
+    color: #499437
+}
+
+.wishBtn {
+    border: 1px solid #ff4040;
+    background-color: #fff1f1;
+    color: #ff4040
+}
+
+.savePrice {
+    color: #0dbaf2
+}
+
+.AvailabelBtn,.avlbl-bg .daterate,.avlbl-bg .rateprice,span.paxCounttext {
+    background-color: #2ec772
+}
+
+.Carttbl table thead,.itineryline,.lineLeft,span.daycount {
+    background-color: var(--bg3)
+}
+
+.BSconfirm,.Sconfirmed span:first-child {
+    background-color: #88cc62
+}
+
+.BScancle,.SCancelled span:first-child {
+    background-color: #fc5656
+}
+
+.BSvoucher,.SVoucher span:first-child {
+    background-color: #9f88ff
+}
+
+.BScompleted,.SCompleted span:first-child {
+    background-color: #e2e25d
+}
+
+.BSrejected,.Srejected span:first-child {
+    background-color: #303b7d
+}
+
+.BSonrequest,.Sonrequest span:first-child {
+    background-color: #fa8942
+}
+
+.BSinprocess,.Sinprocess span:first-child {
+    background-color: #428bca
+}
+
+.BSAppinprocess,.SAppinprocess span:first-child {
+    background-color: #34a482
+}
+
+.BSinque,.Sinque span:first-child {
+    background-color: #edbd00
+}
+
+.BSdecline,.Sdecline span:first-child {
+    background-color: #c6a112
+}
+
+.BSauto-released,.Sreleased span:first-child {
+    background-color: #1685cc
+}
+
+.BSreciept,.Sreciept span:first-child {
+    background-color: #40a5c1
+}
+
+.BSapproved {
+    background-color: #63a1ff
+}
+
+.BS-approval {
+    background-color: #337ab7
+}
+
+.HelpDetail a,.developBy a {
+    color: var(--color1)
+}
+
+.btngrp li a {
+    background-color: #009cff;
+    color: #fff
+}
+
+.bannertabs .nav-tabs>li.active a,.cart-item-text a,.cu-box i,.essential-info-block .title,.main-content-block .title,.orange-color {
+    color: var(--color1)
+}
+
+.Notification-text,.color-red {
+    color: red
+}
+
+.GSA-head,.essential-info-block,.passenger-block-main-total,.video_p {
+    background-color: var(--bg3)
+}
+
+.whyus-block span.date {
+    color: #fff;
+    background: var(--bg1);
+}
+
+.radio-label .checkmark:after {
+    background: var(--bg1);
+}
+
+.benifit-block {
+    background: #e9fff0
+}
+
+.setaff {
+    background: var(--bg2)
+}
+
+ul.micepills li a {
+    background-color: var(--bg2)
+}
+
+.quick-popup .PopupBody h4 {
+    color: #1685cc
+}
+
+li .social-icon.whatsapp {
+    color: #2caf22
+}
+
+li .social-icon.phone {
+    color: #e94545
+}
+
+li .social-icon.mail {
+    color: #fad20a
+}
+
+.quick-popup .PopupBody span {
+    color: #333
+}
+
+.trip_txt {
+    color: #000
+}
+
+.advisor_txt {
+    color: #00af87
+}
+
+.bg-pink-light {
+    background: #fef7f5
+}
+
+.Booking-Block .block1 {
+    background: #e8fff7
+}
+
+.Booking-Block .block1 h4 {
+    color: #2ec772
+}
+
+.Booking-Block .block2 {
+    background: #f7f3ff
+}
+
+.Booking-Block .block2 h4 {
+    color: #956fde
+}
+
+.select_bx .gen-btn.green {
+    background: #2ec772;
+    color: #fff
+}
+
+.select_bx .gen-btn.purple {
+    background: #956fde;
+    color: #fff
+}
+
+.note-block {
+    color: #fc5656
+}
+
+#scrolltop {
+    background: var(--bg2)
+}
+
+.booking-block ul li span,.customer-info p i {
+    color: var(--color1)
+}
+
+div.bhoechie-tab-menu div.list-group>a.active::after {
+    border-left: 11px solid var(--color1)
+}
+
+.highlight-block {
+    border-left: 2px solid var(--color1)
+}
+
+.green-color {
+    color: green
+}
+
+.text-red {
+    color: red
+}
+
+.Rpoints ul li:nth-child(n+2) a span:last-child, .rpointmenu.dropdown-menu li:nth-child(n+2) > div span:last-child,.wrappoint .pointbox:nth-child(n+1) {
+    color: #009448;
+    border: 1px solid #009448;
+    background-color: #e8fbf1
+}
+
+.Rpoints ul li:nth-child(n+3) a span:last-child, .rpointmenu.dropdown-menu li:nth-child(n+3) > div span:last-child,.wrappoint .pointbox:nth-child(n+2) {
+    color: #556080;
+    border: 1px solid #556080;
+    background-color: #e9eefc
+}
+
+.Rpoints ul li:nth-child(n+4) a span:last-child, .rpointmenu.dropdown-menu li:nth-child(n+4) > div span:last-child,.wrappoint .pointbox:nth-child(n+3) {
+    color: #f78f3a;
+    border: 1px solid #f78f3a;
+    background-color: #f5eae1
+}
+
+.Rpoints ul li:nth-child(n+5) a span:last-child, .rpointmenu.dropdown-menu li:nth-child(n+5) > div span:last-child,.wrappoint .pointbox:nth-child(n+4) {
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+    background-color: #fff2f1
+}
+
+.SlotTime.tsred {
+    background-color: #e04c4c;
+    cursor: default
+}
+
+.SlotTime.tsyellow {
+    background-color: #ffe046
+}
+
+.SlotTime.tsgreen {
+    background-color: var(--bg4);
+    color: #111
+}
+
+.availabelCircle {
+    background-color: var(--bg4)
+}
+
+@media(max-width: 991px) {
+    :root {
+        --mainorangecolor:#f36911;
+        --lightorangecolor: #f9e3d4;
+        --color3: #E9CEBD;
+        --bg3: #ffe9e2
+    }
+
+    .MainIcon-SVG {
+        background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/StripImg/MainSVG-Strip.svg);
+        background-repeat: no-repeat
+    }
+
+    .MainIcon-SVG_01 {
+        background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/StripImg/MainSVG-Strip-01.svg);
+        background-repeat: no-repeat
+    }
+
+    /*.MainIcon-SVG_02{background-image:url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/StripImg/MainSVG-Strip02.svg);background-repeat:no-repeat}*/
+    .svgBG-one {
+        background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/svgBG-one.svg);
+        background-repeat: no-repeat
+    }
+
+    .svgBG-two {
+        background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/svg/default/svgBG-two.svg)
+    }
+
+    .pro-svg-new {
+        background-image: url(https://d1i3enf1i5tb1f.cloudfront.net/assets/Whitelabel/B2C/svg/profile-menu.svg);
+        background-repeat: no-repeat
+    }
+}
