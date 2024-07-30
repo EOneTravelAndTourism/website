@@ -157,11 +157,11 @@ body {
 }
 .inlinetour-slider .owl-prev {
   position: absolute;
-  left: -25px;
+  left: -5px;
 }
 .inlinetour-slider .owl-next {
   position: absolute;
-  right: -25px;
+  right: -5px;
 }
 .toursdiv {
   position: relative;
