@@ -3,6 +3,7 @@ body {
 }
 .Home-content,
 .homeBannR {
+  position: relative;
   min-height: 320px;
 }
 
@@ -156,11 +157,11 @@ body {
 }
 .inlinetour-slider .owl-prev {
   position: absolute;
-  left: -5px;
+  left: -25px;
 }
 .inlinetour-slider .owl-next {
   position: absolute;
-  right: -5px;
+  right: -25px;
 }
 .toursdiv {
   position: relative;
@@ -220,11 +221,10 @@ body {
   background: no-repeat;
   box-shadow: none;
   border: 1px solid #333;
-  
 }
 .toursliders .owl-controls .owl-nav .owl-prev {
   left: auto;
-  right: 20px;
+  right: 40px;
 }
 .toursliders .owl-controls .owl-nav .owl-next {
   right: 0;
@@ -807,7 +807,7 @@ h1.Home-content-pagetitle {
   position: absolute;
   top: 40%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 1160px;
   z-index: 11;
 }
 .country-city-name .des-city {
@@ -829,6 +829,7 @@ h1.Home-content-pagetitle {
   body {
     background-color: #fff !important;
   }
+
   .float {
     position: fixed;
     width: 60px;
@@ -1034,9 +1035,7 @@ h1.Home-content-pagetitle {
     font-size: 24px;
   }
   .homeBannR .defaultbnr {
-    height: fit-content;
-    margin-top: 20px;
-    width: auto;
+    height: 200px;
   }
   .tour-image .bnr-rpoints {
     left: 5px;
