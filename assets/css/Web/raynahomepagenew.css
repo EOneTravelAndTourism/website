@@ -6,29 +6,25 @@ body {
   min-height: 320px;
 }
 
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:1440px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 1440px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
 }
 
-.my-float{
-	margin-top:16px;
+.my-float {
+  margin-top: 16px;
 }
 
-
-
-
- 
 .homebnrtext {
   position: absolute;
   bottom: 20%;
@@ -159,10 +155,12 @@ body {
   top: 25% !important;
 }
 .inlinetour-slider .owl-prev {
-  left: -35px !important;
+  position: absolute;
+  left: -5px;
 }
 .inlinetour-slider .owl-next {
-  right: -35px !important;
+  position: absolute;
+  right: -5px;
 }
 .toursdiv {
   position: relative;
@@ -222,10 +220,11 @@ body {
   background: no-repeat;
   box-shadow: none;
   border: 1px solid #333;
+  
 }
 .toursliders .owl-controls .owl-nav .owl-prev {
   left: auto;
-  right: 40px;
+  right: 20px;
 }
 .toursliders .owl-controls .owl-nav .owl-next {
   right: 0;
@@ -819,7 +818,6 @@ h1.Home-content-pagetitle {
     padding: 0;
     margin-bottom: 30px;
   }
-  
 }
 @media (min-width: 992px) {
   .tour-count .strikeprice {
@@ -831,25 +829,24 @@ h1.Home-content-pagetitle {
   body {
     background-color: #fff !important;
   }
-  .float{
-    position:fixed;
-    width:60px;
-    height:60px; 
-    bottom:40px;
-    right:340px;
-    background-color:#25d366;
-    color:#FFF;
-    border-radius:50px;
-    text-align:center;
-    font-size:30px;
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 340px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
     box-shadow: 2px 2px 3px #999;
-    z-index:100;
+    z-index: 100;
   }
-  
-  .my-float{
-    margin-top:16px;
+
+  .my-float {
+    margin-top: 16px;
   }
-  
 
   .bannertitle {
     margin-top: 15px;

@@ -23,6 +23,7 @@
     <script type="text/javascript" async=""
         src="https://www.googletagmanager.com/gtag/js?id=G-R8Q1G2HVKK&amp;l=dataLayer&amp;cx=c"></script>
     <script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-PGDQZR5"></script>
+    
     <style type="text/css">
         @charset "UTF-8";
 
@@ -45,8 +46,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link id="favicon" rel="shortcut icon" type="image/ico" href=".\images\logo_page-0001.jpg">
-    <link id="favicon" rel="shortcut icon" type="image/ico"
-        href="">
+    <link id="favicon" rel="shortcut icon" type="image/ico" href="">
     <link href="https://djz6nvrucsv66.cloudfront.net/assets/minified-files_css/minified-files/webmaincss.css?v1"
         rel="stylesheet">
     <style>
@@ -59,6 +59,24 @@
         .Body-wrapper {
             flex-grow: 1;
         }
+        .owl-carousel .owl-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .owl-carousel .owl-item img {
+            width: 100px; /* Adjust this value as needed */
+            height: 100px; /* Adjust this value as needed */
+            object-fit: cover;
+        }
+
+        .owl-carousel .a-name {
+            display: block;
+            text-align: center;
+            margin-top: 5px;
+        }
+
     </style>
     <link href="App_Themes/default/color.css" type="text/css" rel="stylesheet">
     <link rel="canonical" href="https://www.raynatours.com/dubai-activities">
@@ -178,8 +196,7 @@
                                                 class="icon-bar"></span><span class="icon-bar"></span><span
                                                 class="icon-bar"></span></button><a class="weblogo" href="/"
                                             aria-label="go to home page"><img width="300" height="60"
-                                                src=".\images\logo_page-0001.jpg"
-                                                alt=""></a></div>
+                                                src=".\images\logo_page-0001.jpg" alt=""></a></div>
                                 </div>
                                 <div class="col-lg-9 col-md-9 col-xs-12">
                                     <div class="collapse navbar-collapse colpaddright" id="myNavbar">
@@ -191,10 +208,10 @@
                                                             class="caret"></span></div>
                                                     <div class="dropdown-content">
                                                         <div class="dropMENU">Dubai +971 42087444</div>
-                                                       
+
                                                     </div>
                                                 </li>
-                                                
+
                                             </ul>
                                             <!-- <ul class="Header-menu">
                                                 <li class="" id="showlogin"><a aria-label="login popup" class="a-click"
@@ -202,14 +219,14 @@
                                                         data-ng-click="showlogin()" id="btndisplogin"><i
                                                             class="loginicon svgHeader"></i><span class="dropbtn">Log
                                                             In</span></a>ngIf: IsGuestUserLogin != 1 -->
-                                                    <!-- <div class="login-info ng-scope hide"
+                                            <!-- <div class="login-info ng-scope hide"
                                                         data-ng-if="IsGuestUserLogin != 1">
                                                         <p>For better experience<br>please login</p>
                                                         <div class="skip-div"><span>Done? Click here to skip</span><a
                                                                 class="gotit skiploginintro" id="gotitlogin">Got it!</a>
                                                         </div>
                                                     </div>end ngIf: IsGuestUserLogin != 1 -->
-                                                <!-- </li>
+                                            <!-- </li>
                                                 <li class="hide"><a data-toggle="modal" id="btnhello"
                                                         data-target="#dp-popup"><span
                                                             class="ThemeButton dropbtn">dp</span></a></li>
@@ -563,8 +580,7 @@
                         }
                     </style>
                     <link href="assets/css/Web/raynahomepagenew.css" rel="stylesheet">
-                    <button type="button"
-                        class="btn btn-primary btn-lg hide" data-toggle="modal"
+                    <button type="button" class="btn btn-primary btn-lg hide" data-toggle="modal"
                         onclick="if (!window.__cfRLUnblockHandlers) return false; document.getElementById('WaitingPage').classList.toggle('hide');"
                         id="waitdisp">demo
                     </button>
@@ -582,8 +598,7 @@
                         <div class="Home-content">
                             <div class="homeBannR">
                                 <div class="item"><a target="_blank" href=""><img class="img-responsive defaultbnr"
-                                            alt="default_bg"
-                                            src=".\images\placesBanner-fotor-202407292368.png"
+                                            alt="default_bg" src=".\images\placesBanner-fotor-202407292368.png"
                                             width="1920" height="540"></a>
                                     <h1 class="item-txt"></h1>
                                 </div>
@@ -3295,7 +3310,7 @@
                                                             data-src="https://d1i3enf1i5tb1f.cloudfront.net/CategoryType-Images/41799/balloon-flight.jpg"
                                                             src="https://d1i3enf1i5tb1f.cloudfront.net/CategoryType-Images/41799/balloon-flight.jpg"><span
                                                             class="a-name">Hot Air Balloon</span></a></div>
-                                                <!-- <div class="owl-item" style="width: 94.333px; margin-right: 10px;"><a
+                                                <div class="owl-item" style="width: 94.333px; margin-right: 10px;"><a
                                                         class="listviewfilter item clickevent" id="41800"><img
                                                             height="100" width="100" class="preloading"
                                                             data-src="https://d1i3enf1i5tb1f.cloudfront.net/CategoryType-Images/41800/camel-riding.jpg"
@@ -3384,7 +3399,7 @@
                                                             height="100" width="100" class="preloading"
                                                             data-src="https://d1i3enf1i5tb1f.cloudfront.net/CategoryType-Images/271880/dinner-image.jpg"
                                                             src="https://d1i3enf1i5tb1f.cloudfront.net/CategoryType-Images/271880/dinner-image.jpg"><span
-                                                            class="a-name">Restaurants and meals</span></a></div> -->
+                                                            class="a-name">Restaurants and meals</span></a></div>
                                             </div>
                                         </div>
                                         <div class="owl-controls">
@@ -4221,7 +4236,7 @@
                                                     href="/dubai/theme-parks/aya-universe-dubai-e-508739"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
                                                         data-src=".\images\dubaiAyauniverse.jpg">
-                                                        
+
                                                     <div class="Recommended_icon recmndiv hide">
                                                         <i></i><span>Recommended</span>
                                                     </div>
@@ -5269,7 +5284,6 @@
                                                 data-recommended="1"><a class="tourNameurl"
                                                     href="/dubai/yacht-charter/luxury-yacht-rental-dubai-e-72"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        
                                                         src=".\images\dubaiLuxuryYatch.jpg">
                                                     <div class="Recommended_icon recmndiv">
                                                         <i></i><span>Recommended</span>
@@ -5612,8 +5626,7 @@
                                                 data-recommended="1"><a class="tourNameurl"
                                                     href="/dubai/atlantis-hotel-tours/dolphin-bay-atlantis-e-5966"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        data-src=""
-                                                        src=".\images\dubaiDolphinbay.jpg">
+                                                        data-src="" src=".\images\dubaiDolphinbay.jpg">
                                                     <div class="Recommended_icon recmndiv">
                                                         <i></i><span>Recommended</span>
                                                     </div>
@@ -5726,8 +5739,7 @@
                                                 data-recommended="0"><a class="tourNameurl"
                                                     href="/dubai/cruise-and-boat-tours/lotus-mega-yacht-dinner-cruise-e-507783"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        data-src=""
-                                                        src=".\images\dubaiLotusDinner.jpg">
+                                                        data-src="" src=".\images\dubaiLotusDinner.jpg">
                                                     <div class="Recommended_icon recmndiv hide">
                                                         <i></i><span>Recommended</span>
                                                     </div>
@@ -7000,8 +7012,7 @@
                                                 data-reviewcount="124" data-suppliername="Rayna" data-contractid="300"
                                                 data-priceload="0" data-recommended="1"><a class="tourNameurl"
                                                     href="/dubai/theme-parks/glow-garden-e-3377"><img alt="listimg"
-                                                        class="preloading mt-grid-img MainImage"
-                                                        data-src=""
+                                                        class="preloading mt-grid-img MainImage" data-src=""
                                                         src=".\images\dubaiGardenglow.jpg">
                                                     <div class="Recommended_icon recmndiv">
                                                         <i></i><span>Recommended</span>
@@ -7172,7 +7183,6 @@
                                                 data-recommended="0"><a class="tourNameurl"
                                                     href="/dubai/culture-and-attractions/3d-world-selfie-museum-e-508256"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        
                                                         src=".\images\dubai3d-world.jpg">
                                                     <div class="Recommended_icon recmndiv hide">
                                                         <i></i><span>Recommended</span>
@@ -7911,8 +7921,7 @@
                                                 data-priceload="0" data-recommended="1"><a class="tourNameurl"
                                                     href="/dubai/water-activities/kayaking-in-dubai-e-4848"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        data-src=""
-                                                        src=".\images\dubaiKayak.jpg">
+                                                        data-src="" src=".\images\dubaiKayak.jpg">
                                                     <div class="Recommended_icon recmndiv">
                                                         <i></i><span>Recommended</span>
                                                     </div>
@@ -8024,8 +8033,7 @@
                                                 data-recommended="0"><a class="tourNameurl"
                                                     href="/dubai/adventure-tours/the-dubai-balloon-at-atlantis-e-508878"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        data-src=""
-                                                        src=".\images\dubaiBalllook.jpg">
+                                                        data-src="" src=".\images\dubaiBalllook.jpg">
                                                     <div class="Recommended_icon recmndiv hide">
                                                         <i></i><span>Recommended</span>
                                                     </div>
@@ -8476,8 +8484,7 @@
                                                 data-recommended="0"><a class="tourNameurl"
                                                     href="/dubai/cruise-and-boat-tours/xclusive-shared-yacht-tour-e-508817"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        data-src=""
-                                                        src=".\images\dubaiSharedyatch.jpg">
+                                                        data-src="" src=".\images\dubaiSharedyatch.jpg">
                                                     <div class="Recommended_icon recmndiv hide">
                                                         <i></i><span>Recommended</span>
                                                     </div>
@@ -8533,8 +8540,7 @@
                                                 data-recommended="0"><a class="tourNameurl"
                                                     href="/dubai/cruise-and-boat-tours/sky-walker-sharing-yacht-tours-e-508697"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        data-src=""
-                                                        src=".\images\dubaiSkywalker.jpg">
+                                                        data-src="" src=".\images\dubaiSkywalker.jpg">
                                                     <div class="Recommended_icon recmndiv hide">
                                                         <i></i><span>Recommended</span>
                                                     </div>
@@ -8818,8 +8824,7 @@
                                                 data-recommended="0"><a class="tourNameurl"
                                                     href="/dubai/water-parks/atlantis-aquaventure-dated-tickets-e-508773"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        data-src=""
-                                                        src=".\images\dubaiAtlantisAdv.jpg">
+                                                        data-src="" src=".\images\dubaiAtlantisAdv.jpg">
                                                     <div class="Recommended_icon recmndiv hide">
                                                         <i></i><span>Recommended</span>
                                                     </div>
@@ -9105,8 +9110,7 @@
                                                 data-recommended="0"><a class="tourNameurl"
                                                     href="/dubai/premium-tours/premium-desert-safari-e-2197"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        data-src=""
-                                                        src=".\images\dubaiPremDesertsafari.jpg">
+                                                        data-src="" src=".\images\dubaiPremDesertsafari.jpg">
                                                     <div class="Recommended_icon recmndiv hide">
                                                         <i></i><span>Recommended</span>
                                                     </div>
@@ -9217,8 +9221,7 @@
                                                 data-priceload="0" data-recommended="0"><a class="tourNameurl"
                                                     href="/dubai/water-activities/banana-boat-ride-e-4768"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        data-src=""
-                                                        src=".\images\dubaiBananaBoat.jpg">
+                                                        data-src="" src=".\images\dubaiBananaBoat.jpg">
                                                     <div class="Recommended_icon recmndiv hide">
                                                         <i></i><span>Recommended</span>
                                                     </div>
@@ -9388,8 +9391,7 @@
                                                 data-priceload="0" data-recommended="0"><a class="tourNameurl"
                                                     href="/dubai/water-activities/donut-ride-dubai-e-4767"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        data-src=""
-                                                        src=".\images\dubaiDonutride.jpg">
+                                                        data-src="" src=".\images\dubaiDonutride.jpg">
                                                     <div class="Recommended_icon recmndiv hide">
                                                         <i></i><span>Recommended</span>
                                                     </div>
@@ -10015,8 +10017,7 @@
                                                 data-priceload="0" data-recommended="0"><a class="tourNameurl"
                                                     href="/dubai/adventure-tours/jet-car-dubai-e-508671"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        data-src=""
-                                                        src=".\images\dubaiJetcar.jpg">
+                                                        data-src="" src=".\images\dubaiJetcar.jpg">
                                                     <div class="Recommended_icon recmndiv hide">
                                                         <i></i><span>Recommended</span>
                                                     </div>
@@ -10703,8 +10704,7 @@
                                                 data-recommended="0"><a class="tourNameurl"
                                                     href="/dubai/desert-safari-tours/sunrise-safari-dubai-e-4875"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        data-src=""
-                                                        src=".\images\dubaiSunriseSafari.jpg">
+                                                        data-src="" src=".\images\dubaiSunriseSafari.jpg">
                                                     <div class="Recommended_icon recmndiv hide">
                                                         <i></i><span>Recommended</span>
                                                     </div>
@@ -12096,8 +12096,7 @@
                                                 data-priceload="0" data-recommended="0"><a class="tourNameurl"
                                                     href="/super-saver/dubai/atlantis-aquaventure-with-photo-pass-853"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        data-src=""
-                                                        src=".\images\dubaiAtlantisAdv.jpg">
+                                                        data-src="" src=".\images\dubaiAtlantisAdv.jpg">
                                                     <div class="Recommended_icon recmndiv hide">
                                                         <i></i><span>Recommended</span>
                                                     </div>
@@ -12213,8 +12212,7 @@
                                                 data-priceload="0" data-recommended="0"><a class="tourNameurl"
                                                     href="/super-saver/dubai/wild-wadi-with-photo-pass-855"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        data-src=""
-                                                        src=".\images\dubaiWildwali.jpg">
+                                                        data-src="" src=".\images\dubaiWildwali.jpg">
                                                     <div class="Recommended_icon recmndiv hide">
                                                         <i></i><span>Recommended</span>
                                                     </div>
@@ -12674,8 +12672,7 @@
                                                 data-recommended="0"><a class="tourNameurl"
                                                     href="/dubai/cruise-and-boat-tours/morning-xclusive-shared-yacht-tour-e-508822"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        data-src=""
-                                                        src=".\images\dubaiMorningExc.jpg">
+                                                        data-src="" src=".\images\dubaiMorningExc.jpg">
                                                     <div class="Recommended_icon recmndiv hide">
                                                         <i></i><span>Recommended</span>
                                                     </div>
@@ -13018,8 +13015,7 @@
                                                 data-recommended="0"><a class="tourNameurl"
                                                     href="/dubai/atlantis-hotel-tours/gastronomy-restaurant-e-508954"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        data-src=""
-                                                        src=".\images\dubaiGastronomy.jpg">
+                                                        data-src="" src=".\images\dubaiGastronomy.jpg">
                                                     <div class="Recommended_icon recmndiv hide">
                                                         <i></i><span>Recommended</span>
                                                     </div>
@@ -13819,8 +13815,7 @@
                                                 data-recommended="0"><a class="tourNameurl"
                                                     href="/dubai/water-parks/yas-water-world-from-dubai-e-4973"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        data-src=""
-                                                        src=".\images\dubaiYas-Waterworld.jpg">
+                                                        data-src="" src=".\images\dubaiYas-Waterworld.jpg">
                                                     <div class="Recommended_icon recmndiv hide">
                                                         <i></i><span>Recommended</span>
                                                     </div>
@@ -14161,8 +14156,7 @@
                                                 data-priceload="0" data-recommended="1"><a class="tourNameurl"
                                                     href="/dubai/desert-safari-tours/overnight-safari-e-90"><img
                                                         alt="listimg" class="preloading mt-grid-img MainImage"
-                                                        data-src=""
-                                                        src=".\images\dubaiOvernightsafari.jpg">
+                                                        data-src="" src=".\images\dubaiOvernightsafari.jpg">
                                                     <div class="Recommended_icon recmndiv">
                                                         <i></i><span>Recommended</span>
                                                     </div>
@@ -14277,7 +14271,8 @@
                                                         data-src="https://d1i3enf1i5tb1f.cloudfront.net/Tour-Images/false-464368/img-worlds-of-adventure-fast-track.jpg"
                                                         src="https://d1i3enf1i5tb1f.cloudfront.net/Tour-Images/false-464368/img-worlds-of-adventure-fast-track.jpg">
                                                     <div class="Recommended_icon recmndiv hide">
-                                                        <i></i><span>Recommended</span></div>
+                                                        <i></i><span>Recommended</span>
+                                                    </div>
                                                     <div class="wraper_hover atf hide"><i class="fa fa-heart"
                                                             aria-hidden="true"></i>
                                                         <div class="hoverinfo"><b>Create Your own wish list</b><br>Heart
@@ -14303,7 +14298,8 @@
                                                                         <span data-ng-bind="CurrencySymbol"
                                                                             class="ng-binding">AED</span>&nbsp;<span
                                                                             class="price-discount-set"
-                                                                            data-baseprice="365.00">365.00</span></div>
+                                                                            data-baseprice="365.00">365.00</span>
+                                                                    </div>
                                                                     <div class="origionalprice"><span
                                                                             class="currencysymbol ng-binding"
                                                                             data-ng-bind="CurrencySymbol">AED</span><span
@@ -14564,8 +14560,7 @@
                 <footer class="f-raynab2c">
                     <div class="container">
                         <div class="f-raynab2c-flex">
-                            <div class="footerlogo"><img width="200" height="50"
-                                    src=".\images\logo_page-0001.jpg"
+                            <div class="footerlogo"><img width="200" height="50" src=".\images\logo_page-0001.jpg"
                                     alt=""></div>
                             <ul class="quick-links">
                                 <li><a aria-label="about us" href="/about-us"><span ng-bind="'About us' | translate"
@@ -14596,7 +14591,7 @@
                                             class="fa fa-youtube-play"></i></a></li>
                             </ul>
                         </div>
-                        <div class="Design-Develope"><span>© E1 Travels and Tours 
+                        <div class="Design-Develope"><span>© E1 Travels and Tours
                         </div>
                     </div><a class="back-to-top-button" href="#top">↑</a>
                 </footer>
@@ -14606,7 +14601,29 @@
                 type="hidden" id="hdnwebsiteId" value="17"><input type="hidden" id="hdnIsB2CProfile" value="1"><input
                 type="hidden" id="hdnGTM" value="GTM-PGDQZR5">
         </div>
-        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('#list_tourType').owlCarousel({
+                    loop: true,
+                    margin: 0,
+                    nav: true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 3
+                        },
+                        1000: {
+                            items: 5
+                        }
+                    }
+                });
+            });
+        </script>
+
 </body>
 
 </html>
