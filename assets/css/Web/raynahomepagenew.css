@@ -1005,7 +1005,7 @@ h1.Home-content-pagetitle {
   }
   .Home-content,
   .homeBannR {
-    min-height: 200px;  
+    min-height: 155px;  
     max-height: 270px;
    
   }
@@ -1043,7 +1043,7 @@ h1.Home-content-pagetitle {
     font-size: 24px;
   }
   .homeBannR .defaultbnr {
-  
+  height: auto;
   }
   .tour-image .bnr-rpoints {
     left: 5px;
