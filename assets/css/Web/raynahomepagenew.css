@@ -7,6 +7,12 @@ body {
   min-height: 320px;
 }
 
+.homeBannR img {
+  object-fit: cover; /* Or 'contain' */
+  width: 100%;
+  height: 100%; /* Make sure the parent container has a fixed height */
+}
+
 .float {
   position: fixed;
   width: 60px;
@@ -829,6 +835,7 @@ h1.Home-content-pagetitle {
   body {
     background-color: #fff !important;
   }
+  
 
   .float {
     position: fixed;
@@ -998,7 +1005,7 @@ h1.Home-content-pagetitle {
   }
   .Home-content,
   .homeBannR {
-    min-height: 150px;  
+    min-height: 200px;  
     max-height: 270px;
    
   }
@@ -1036,7 +1043,7 @@ h1.Home-content-pagetitle {
     font-size: 24px;
   }
   .homeBannR .defaultbnr {
-   width: auto;
+  
   }
   .tour-image .bnr-rpoints {
     left: 5px;
