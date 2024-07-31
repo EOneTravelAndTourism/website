@@ -182,22 +182,22 @@
                                         <div class="b2c-header">
                                             <ul class="Header-menu cart-lang">
                                                 <li class="dropdown intialhide">
-                                                    <div class="a-click"><span ng-bind="'Helpline' | translate"
-                                                            class="ng-binding">Helpline</span><span
+                                                    <div class="a-click"><span ng-bind="'' | translate"
+                                                            class="ng-binding">Contact</span><span
                                                             class="caret"></span></div>
                                                     <div class="dropdown-content">
-                                                        <div class="dropMENU">Dubai +971 42087444</div>
-                                                        <div class="dropMENU">IND +91 2066838877</div>
+                                                        <div class="dropMENU">+971 50 502 1247</div>
+                                                       
                                                     </div>
                                                 </li>
-                                                <li class="languageDIV dropdown">
+                                                <!-- <li class="languageDIV dropdown">
                                                     <div class="a-click" ng-mouseover="LanguageCall()">
                                                         <span>English</span><span class="caret"></span>
                                                     </div>
                                                     <div class="dropdown-content hide">
-                                                        <div class="dd-preloader"><span></span></div>
+                                                        <div class="dd-preloader"><span></span></div> -->
                                                         <!-- ngRepeat: data in LanguageList -->
-                                                    </div>
+                                                    <!-- </div>
                                                 </li>
                                                 <li class="languageDIV hide">
                                                     <div class="a-click"><i class="homesvg EngIcon"></i>ENG</div>
@@ -208,26 +208,26 @@
                                                             class="ng-binding">AED</span><span class="caret"></span>
                                                     </div>
                                                     <ul class="dropdown-content">
-                                                        <li class="dd-preloader"><span></span></li>
+                                                        <li class="dd-preloader"><span></span></li> -->
                                                         <!-- ngRepeat: data in currencyList -->
-                                                    </ul>
+                                                    <!-- </ul>
                                                 </li>
-                                            </ul>
-                                            <ul class="Header-menu">
+                                            </ul> -->
+                                            <!-- <ul class="Header-menu">
                                                 <li class="" id="showlogin"><a aria-label="login popup" class="a-click"
                                                         data-toggle="modal" data-target="#loginpopup"
                                                         data-ng-click="showlogin()" id="btndisplogin"><i
-                                                            class="loginicon svgHeader"></i><span class="dropbtn">Log
-                                                            In</span></a><!-- ngIf: IsGuestUserLogin != 1 -->
-                                                    <div class="login-info ng-scope hide"
+                                                            class="loginicon svgHeader"></i><span class="dropbtn">Log -->
+                                                            </span></a><!-- ngIf: IsGuestUserLogin != 1 -->
+                                                    <!-- <div class="login-info ng-scope hide"
                                                         data-ng-if="IsGuestUserLogin != 1">
                                                         <p>For better experience<br>please login</p>
                                                         <div class="skip-div"><span>Done? Click here to skip</span><a
                                                                 class="gotit skiploginintro" id="gotitlogin">Got it!</a>
-                                                        </div>
-                                                    </div><!-- end ngIf: IsGuestUserLogin != 1 -->
-                                                </li>
-                                                <li class="hide"><a data-toggle="modal" id="btnhello"
+                                                        </div> -->
+                                                    <!-- </div>end ngIf: IsGuestUserLogin != 1 -->
+                                                <!-- </li> -->
+                                                <!-- <li class="hide"><a data-toggle="modal" id="btnhello"
                                                         data-target="#dp-popup"><span
                                                             class="ThemeButton dropbtn">dp</span></a></li>
                                                 <li class="hide"><a data-toggle="modal" data-target="#c-popup"
@@ -267,7 +267,7 @@
                                                         href="/PassengerDetail.aspx?GuestUserId=0"><span
                                                             class="homesvg cartIcon HomeCart"></span><span
                                                             class="addedNumber cart-value ng-binding"
-                                                            data-ng-bind="CartItemCount">0</span></a></li>
+                                                            data-ng-bind="CartItemCount">0</span></a></li> -->
                                             </ul>
                                         </div>
                                     </div>
@@ -1100,7 +1100,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="inline-tours topinlinetour">
+                        <div class="inline-tours topinlinetour">
                             <div class="container">
                                 <h1 class="sectiontitle">Top Abu Dhabi Tours &amp; Activities</h1>
                                 <div class="circle-tour-loader hide" id="tourtypeloader"><img alt="preloader-skeleton"
@@ -1215,7 +1215,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                         <div class="toptours">
                             <div class="container">
                                 <div id="list_tours" class="multi-tours">
@@ -1265,7 +1265,7 @@
                                     <div class="TopFilterbar">
                                         <div class="things-btns">
                                             <div class="totalthings"><span class="svgBG4 activiyIcoN"></span>
-                                                <h2><span id="tourcount">37</span>&nbsp;Things to do in Abu Dhabi </h2>
+                                                <h2><span id="tourcount"></span>&nbsp;Things to do in Abu Dhabi </h2>
                                             </div><a class="View-all-Btn hide" id="btnviewall"
                                                 ng-click="ViewAllTours()">View All Tours</a><a
                                                 class="View-all-Btn ss-btn  hide" id="btnsupersaver"
@@ -3247,7 +3247,7 @@
                             </ul><input type="hidden" name="ctl00$ctl06$repMainTitle$ctl05$hfMainTittleID"
                                 id="ctl06_repMainTitle_hfMainTittleID_5" value="35">
                             <ul>
-                                <li>Rayna-Recommended Abu Dhabi Activities : </li>
+                                <li>E1 Travels and Tours-Recommended Abu Dhabi Activities : </li>
                                 <li><a
                                         href="https://www.raynatours.com/abu-dhabi/airport-transfers/abu-dhabi-airport-pick-up-e-4865">Abu
                                         Dhabi Airport Pick Up</a></li>
@@ -3319,6 +3319,28 @@
                 type="hidden" id="hdnwebsiteId" value="17"><input type="hidden" id="hdnIsB2CProfile" value="1"><input
                 type="hidden" id="hdnGTM" value="GTM-PGDQZR5">
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('#list_tourType').owlCarousel({
+                    loop: true,
+                    margin: 0,
+                    nav: true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 3
+                        },
+                        1000: {
+                            items: 5
+                        }
+                    }
+                });
+            });
+        </script>
 
 </body>
 
