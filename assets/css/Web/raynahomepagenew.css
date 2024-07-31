@@ -1035,7 +1035,7 @@ h1.Home-content-pagetitle {
     font-size: 24px;
   }
   .homeBannR .defaultbnr {
-    height: 200px;
+   height: auto;
   }
   .tour-image .bnr-rpoints {
     left: 5px;
